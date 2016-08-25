@@ -6,8 +6,6 @@ import android.os.Binder;
 import android.os.Handler;
 import android.os.IBinder;
 
-import com.ziv.wificlient.threads.ListenThread;
-
 public class LocalService extends Service {
 
     private static final String TAG = "LocalService";

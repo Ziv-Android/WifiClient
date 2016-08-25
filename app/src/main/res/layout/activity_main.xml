@@ -4,29 +4,17 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/openheat"
+        android:id="@+id/server_model"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="点击这个是作为发送信息方" />
+        android:text="Server端" />
 
     <Button
-        android:id="@+id/getphone"
+        android:id="@+id/client_model"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="获取连接到我手机上的手机" />
-
-    <Button
-        android:id="@+id/startsocket"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="发送信息到接收方" />
-
-    <TextView
-        android:id="@+id/mytv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:text="Client端" />
 
 </LinearLayout>

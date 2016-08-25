@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WIFIClient.iml" filepath="$PROJECT_DIR$/WIFIClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WifiClient.iml" filepath="$PROJECT_DIR$/WifiClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

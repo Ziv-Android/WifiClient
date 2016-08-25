@@ -26,6 +26,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:name=".service.LocalService">
+            <intent-filter>
+                <action android:name="com.deng.bindService" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
