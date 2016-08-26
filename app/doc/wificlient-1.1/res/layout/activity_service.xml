@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.ziv.wificlient.service.ServiceActivity">
+
+    <TextView
+        android:id="@+id/service_ip_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本机IP"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="端口"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/service_port_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:lines="1"
+        android:text="8080" />
+
+    <TextView
+        android:id="@+id/service_receive_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="状态" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/service_start_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="开启服务" />
+
+        <Button
+            android:id="@+id/service_send_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="发送" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送消息" />
+
+    <EditText
+        android:id="@+id/service_buffer_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试消息" />
+
+</LinearLayout>
